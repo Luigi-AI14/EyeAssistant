@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.freespace.guide.nav.GroundLossTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-01T15:38:36.222Z" hostname="PCDILUIGI" time="0.005">
+  <properties/>
+  <testcase name="il ritorno del pavimento ha effetto immediato" classname="com.freespace.guide.nav.GroundLossTest" time="0.001"/>
+  <testcase name="una perdita prolungata viene segnalata" classname="com.freespace.guide.nav.GroundLossTest" time="0.0"/>
+  <testcase name="un'oscillazione a ogni passo non genera alcun annuncio" classname="com.freespace.guide.nav.GroundLossTest" time="0.004"/>
+  <testcase name="qualche frame senza pavimento non cambia stato" classname="com.freespace.guide.nav.GroundLossTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

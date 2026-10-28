@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.freespace.guide.nav.GroundProjectionTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-28T17:08:50.365Z" hostname="PCDILUIGI" time="0.001">
+  <properties/>
+  <testcase name="sopra l'orizzonte non c'e' pavimento" classname="com.freespace.guide.nav.GroundProjectionTest" time="0.0"/>
+  <testcase name="l'orizzonte sale nell'immagine quando il telefono si abbassa" classname="com.freespace.guide.nav.GroundProjectionTest" time="0.0"/>
+  <testcase name="il centro dell'immagine cade dove dice la tangente" classname="com.freespace.guide.nav.GroundProjectionTest" time="0.001"/>
+  <testcase name="una colonna a destra da' un rilevamento a destra" classname="com.freespace.guide.nav.GroundProjectionTest" time="0.0"/>
+  <testcase name="piu' in basso nell'immagine significa piu' vicino" classname="com.freespace.guide.nav.GroundProjectionTest" time="0.0"/>
+  <testcase name="la rotazione attorno all'asse ottico non sposta il punto centrale" classname="com.freespace.guide.nav.GroundProjectionTest" time="0.0"/>
+  <testcase name="l'altezza della fotocamera scala le distanze linearmente" classname="com.freespace.guide.nav.GroundProjectionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

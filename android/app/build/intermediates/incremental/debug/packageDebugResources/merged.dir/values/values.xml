@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="free">#7F00E676</color>
+    <color name="hud_background">#B3000000</color>
+    <color name="hud_text">#FFFFFFFF</color>
+    <color name="ic_launcher_background">#0B1D2A</color>
+    <color name="setup_no">#B23B3B</color>
+    <color name="setup_voice">#263238</color>
+    <color name="setup_voice_active">#E0E0E0</color>
+    <color name="setup_yes">#1B5E20</color>
+    <string name="app_name">EyeAssistant</string>
+    <string name="cd_overlay">Mappa dello spazio libero</string>
+    <string name="cd_root">Tocca per spegnere lo schermo, tieni premuto per cambiare l\'altezza della fotocamera</string>
+    <string name="cd_setup_no">No, niente auricolari. Disattiva feedback sonoro.</string>
+    <string name="cd_setup_voice">%1$s. Tocca per cambiare.</string>
+    <string name="cd_setup_yes">Sì, uso gli auricolari. Attiva l\'audio spaziale.</string>
+    <string name="cd_viewfinder">Inquadratura della fotocamera</string>
+    <string name="hud_free">Percorribile %1$.0f%%</string>
+    <string name="hud_front">Fronte %1$.1f m</string>
+    <string name="hud_performance">%1$.0f FPS · %2$d ms</string>
+    <string name="permission_required">Serve l\'accesso alla fotocamera per rilevare gli ostacoli.</string>
+    <string name="say_clear">Via libera</string>
+    <string name="say_eco_off">Schermo acceso</string>
+    <string name="say_eco_on">Schermo spento, guida attiva</string>
+    <string name="say_gemini_error">Errore durante l\'analisi della scena.</string>
+    <string name="say_gemini_network_error">Connessione non disponibile. Impossibile contattare Gemini.</string>
+    <string name="say_gemini_no_key">Chiave API di Gemini non configurata. Inseriscila in local.properties.</string>
+    <string name="say_gemini_quota_exceeded">Limite di richieste raggiunto. Riprova più tardi.</string>
+    <string name="say_go_left">Ostacolo a %1$s, spostati a sinistra</string>
+    <string name="say_go_right">Ostacolo a %1$s, spostati a destra</string>
+    <string name="say_half_metre">mezzo metro</string>
+    <string name="say_headset_lost">Auricolari scollegati</string>
+    <string name="say_height">Altezza fotocamera %1$.1f metri</string>
+    <string name="say_metres">%1$.1f metri</string>
+    <string name="say_no_ground">Pavimento non inquadrato, abbassa il telefono</string>
+    <string name="say_obstacle_ahead">Ostacolo a %1$s</string>
+    <string name="say_ready_no_audio">Guida attiva</string>
+    <string name="say_ready_spatial">Guida attiva, audio spaziale</string>
+    <string name="say_scanning">Scansione in corso</string>
+    <string name="say_scanning_wait">Scansione in corso, attendere prego</string>
+    <string name="say_setup_detected">Rilevo auricolari collegati.</string>
+    <string name="say_setup_question">Auricolari? Pulsante a sinistra sì, pulsante a destra no.</string>
+    <string name="say_stop">Fermati, passaggio ostruito</string>
+    <string name="say_voice_off">Voce disattivata</string>
+    <string name="say_voice_on">Voce attiva</string>
+    <string name="setup_no">No</string>
+    <string name="setup_title">Auricolari?</string>
+    <string name="setup_voice_off">Voce disattivata</string>
+    <string name="setup_voice_on">Voce attiva</string>
+    <string name="setup_yes">Sì</string>
+    <string name="status_model_error">Modello non caricato</string>
+    <string name="status_starting">Avvio in corso</string>
+    <style name="Theme.Guide" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

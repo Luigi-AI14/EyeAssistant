@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.freespace.guide.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.freespace.guide.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.freespace.guide.app-mergeDebugResources-30:/layout/activity_setup.xml",
+        "source": "com.freespace.guide.app-main-33:/layout/activity_setup.xml"
+    }
+]

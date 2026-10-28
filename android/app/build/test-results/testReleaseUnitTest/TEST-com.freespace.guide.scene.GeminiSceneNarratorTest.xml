@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.freespace.guide.scene.GeminiSceneNarratorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-01T15:38:36.234Z" hostname="PCDILUIGI" time="0.015">
+  <properties/>
+  <testcase name="buildJsonPayload genera JSON valido con campi system_instruction e inline_data" classname="com.freespace.guide.scene.GeminiSceneNarratorTest" time="0.01"/>
+  <testcase name="isConfigured restituisce false con chiave vuota o placeholder" classname="com.freespace.guide.scene.GeminiSceneNarratorTest" time="0.004"/>
+  <testcase name="isConfigured restituisce true con chiave valida" classname="com.freespace.guide.scene.GeminiSceneNarratorTest" time="0.001"/>
+  <testcase name="default model name e costanti Gemini 3x sono configurate" classname="com.freespace.guide.scene.GeminiSceneNarratorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

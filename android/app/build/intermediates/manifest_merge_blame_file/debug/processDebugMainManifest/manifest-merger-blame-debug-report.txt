@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.freespace.floornetgemini"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:4:5-65
+11-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:4:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:5:5-67
+12-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:6:22-76
+14
+15    <uses-feature
+15-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:8:5-88
+16        android:name="android.hardware.camera.any"
+16-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:8:19-61
+17        android:required="true" />
+17-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:8:62-85
+18    <uses-feature
+18-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:9:5-99
+19        android:name="android.hardware.sensor.accelerometer"
+19-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:9:19-71
+20        android:required="false" />
+20-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:9:72-96
+21
+22    <permission
+22-->[androidx.core:core:1.13.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\c3d765af54736989936e46d1079818b6\workspace\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+23        android:name="com.freespace.floornetgemini.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.13.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\c3d765af54736989936e46d1079818b6\workspace\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.13.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\c3d765af54736989936e46d1079818b6\workspace\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.freespace.floornetgemini.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.13.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\c3d765af54736989936e46d1079818b6\workspace\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.13.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\c3d765af54736989936e46d1079818b6\workspace\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:11:5-35:19
+29        android:allowBackup="true"
+29-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:12:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.13.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\c3d765af54736989936e46d1079818b6\workspace\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:13:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:14:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:15:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:16:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.Guide" >
+38-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:17:9-43
+39        <activity
+39-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:19:9-28:20
+40            android:name="com.freespace.guide.SetupActivity"
+40-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:20:13-42
+41            android:configChanges="orientation|screenSize|keyboardHidden"
+41-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:22:13-74
+42            android:exported="true"
+42-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:21:13-36
+43            android:screenOrientation="portrait" >
+43-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:23:13-49
+44            <intent-filter>
+44-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:24:13-27:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:25:17-69
+45-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:25:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:26:17-77
+47-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:26:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:30:9-34:52
+51            android:name="com.freespace.guide.MainActivity"
+51-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:31:13-41
+52            android:configChanges="orientation|screenSize|keyboardHidden"
+52-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:33:13-74
+53            android:exported="false"
+53-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:32:13-37
+54            android:screenOrientation="portrait" />
+54-->C:\Users\luigi\Desktop\EyeAssistant\android\app\src\main\AndroidManifest.xml:34:13-49
+55
+56        <service
+56-->[androidx.camera:camera-camera2:1.3.4] C:\Users\luigi\.gradle\caches\9.3.0\transforms\299a25496fe05134a865a834978b9951\workspace\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
+57            android:name="androidx.camera.core.impl.MetadataHolderService"
+57-->[androidx.camera:camera-camera2:1.3.4] C:\Users\luigi\.gradle\caches\9.3.0\transforms\299a25496fe05134a865a834978b9951\workspace\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:25:13-75
+58            android:enabled="false"
+58-->[androidx.camera:camera-camera2:1.3.4] C:\Users\luigi\.gradle\caches\9.3.0\transforms\299a25496fe05134a865a834978b9951\workspace\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:26:13-36
+59            android:exported="false" >
+59-->[androidx.camera:camera-camera2:1.3.4] C:\Users\luigi\.gradle\caches\9.3.0\transforms\299a25496fe05134a865a834978b9951\workspace\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.camera:camera-camera2:1.3.4] C:\Users\luigi\.gradle\caches\9.3.0\transforms\299a25496fe05134a865a834978b9951\workspace\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+61                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+61-->[androidx.camera:camera-camera2:1.3.4] C:\Users\luigi\.gradle\caches\9.3.0\transforms\299a25496fe05134a865a834978b9951\workspace\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
+62                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+62-->[androidx.camera:camera-camera2:1.3.4] C:\Users\luigi\.gradle\caches\9.3.0\transforms\299a25496fe05134a865a834978b9951\workspace\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+63        </service>
+64
+65        <provider
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luigi\.gradle\caches\9.3.0\transforms\0520981902849629d5390b0e45fbdcdc\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+66            android:name="androidx.startup.InitializationProvider"
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luigi\.gradle\caches\9.3.0\transforms\0520981902849629d5390b0e45fbdcdc\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+67            android:authorities="com.freespace.floornetgemini.androidx-startup"
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luigi\.gradle\caches\9.3.0\transforms\0520981902849629d5390b0e45fbdcdc\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+68            android:exported="false" >
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luigi\.gradle\caches\9.3.0\transforms\0520981902849629d5390b0e45fbdcdc\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+69            <meta-data
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luigi\.gradle\caches\9.3.0\transforms\0520981902849629d5390b0e45fbdcdc\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luigi\.gradle\caches\9.3.0\transforms\0520981902849629d5390b0e45fbdcdc\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+71                android:value="androidx.startup" />
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luigi\.gradle\caches\9.3.0\transforms\0520981902849629d5390b0e45fbdcdc\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\luigi\.gradle\caches\9.3.0\transforms\6613dcd8224f18e8c4be6cfb6254d06d\workspace\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\luigi\.gradle\caches\9.3.0\transforms\6613dcd8224f18e8c4be6cfb6254d06d\workspace\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+74                android:value="androidx.startup" />
+74-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\luigi\.gradle\caches\9.3.0\transforms\6613dcd8224f18e8c4be6cfb6254d06d\workspace\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+77                android:value="androidx.startup" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+78        </provider>
+79
+80        <receiver
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+81            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+82            android:directBootAware="false"
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+83            android:enabled="true"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+84            android:exported="true"
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+85            android:permission="android.permission.DUMP" >
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+87                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+90                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+93                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+96                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luigi\.gradle\caches\9.3.0\transforms\3d2006fd88a66ea4566d1a521313abc1\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+97            </intent-filter>
+98        </receiver>
+99    </application>
+100
+101</manifest>

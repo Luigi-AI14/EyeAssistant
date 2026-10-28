@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.freespace.guide.nav.GuidanceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-01T15:38:36.231Z" hostname="PCDILUIGI" time="0.002">
+  <properties/>
+  <testcase name="senza pavimento inquadrato non si annunciano ostacoli" classname="com.freespace.guide.nav.GuidanceTest" time="0.001"/>
+  <testcase name="un varco a sinistra manda a sinistra" classname="com.freespace.guide.nav.GuidanceTest" time="0.0"/>
+  <testcase name="il cambio di stato viene segnalato una volta sola" classname="com.freespace.guide.nav.GuidanceTest" time="0.0"/>
+  <testcase name="un varco largo un solo settore non viene proposto" classname="com.freespace.guide.nav.GuidanceTest" time="0.0"/>
+  <testcase name="pavimento sgombro non genera allarmi" classname="com.freespace.guide.nav.GuidanceTest" time="0.0"/>
+  <testcase name="una distanza che oscilla sulla soglia non fa oscillare il livello" classname="com.freespace.guide.nav.GuidanceTest" time="0.0"/>
+  <testcase name="i livelli salgono man mano che l'ostacolo si avvicina" classname="com.freespace.guide.nav.GuidanceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.freespace.guide.nav.FreeSpaceAnalyzerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-01T15:38:36.214Z" hostname="PCDILUIGI" time="0.007">
+  <properties/>
+  <testcase name="pavimento libero da una riga nota da' la distanza attesa" classname="com.freespace.guide.nav.FreeSpaceAnalyzerTest" time="0.001"/>
+  <testcase name="un ostacolo ai piedi da' distanza quasi nulla" classname="com.freespace.guide.nav.FreeSpaceAnalyzerTest" time="0.0"/>
+  <testcase name="distanza e riga sono coerenti con la tangente" classname="com.freespace.guide.nav.FreeSpaceAnalyzerTest" time="0.001"/>
+  <testcase name="la soglia di probabilita' sposta il confine" classname="com.freespace.guide.nav.FreeSpaceAnalyzerTest" time="0.0"/>
+  <testcase name="il filtro temporale reagisce subito a un ostacolo che compare" classname="com.freespace.guide.nav.FreeSpaceAnalyzerTest" time="0.003"/>
+  <testcase name="telefono verticale vede comunque il pavimento vicino" classname="com.freespace.guide.nav.FreeSpaceAnalyzerTest" time="0.001"/>
+  <testcase name="un ostacolo su un lato accorcia solo i settori di quel lato" classname="com.freespace.guide.nav.FreeSpaceAnalyzerTest" time="0.0"/>
+  <testcase name="telefono puntato in alto segnala pavimento non inquadrato" classname="com.freespace.guide.nav.FreeSpaceAnalyzerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

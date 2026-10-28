@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.freespace.guide.app-mergeReleaseResources-30:/layout/activity_setup.xml",
+        "source": "com.freespace.guide.app-main-33:/layout/activity_setup.xml"
+    },
+    {
+        "merged": "com.freespace.guide.app-mergeReleaseResources-30:/layout/activity_main.xml",
+        "source": "com.freespace.guide.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\luigi\\.gradle\\daemon\\9.3.0\\com.freespace.guide.app-mergeReleaseResources-30:\\layout\\activity_setup.xml",
+        "source": "C:\\Users\\luigi\\.gradle\\daemon\\9.3.0\\com.freespace.guide.app-main-33:\\layout\\activity_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\luigi\\.gradle\\daemon\\9.3.0\\com.freespace.guide.app-mergeReleaseResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\luigi\\.gradle\\daemon\\9.3.0\\com.freespace.guide.app-main-33:\\layout\\activity_main.xml"
+    }
+]

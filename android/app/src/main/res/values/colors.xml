@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#0B1D2A</color>
+    <color name="free">#7F00E676</color>
+    <color name="hud_background">#B3000000</color>
+    <color name="hud_text">#FFFFFFFF</color>
+
+    <color name="setup_yes">#1B5E20</color>
+    <color name="setup_no">#B23B3B</color>
+    <color name="setup_voice">#263238</color>
+    <color name="setup_voice_active">#E0E0E0</color>
+</resources>
